@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+             <div class="box">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    
+                    <li class="dropdown"><a href="#" class="dropbtn">Make</a>
+                        <div class="dropdown-content">
+                                    <a href="first.html">1월</a>
+                                    <a href="second.html">2월</a>
+                                    <a href="Third.html">3월</a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown"><a href="#" class="dropbtn">introduce</a>
+                            <div class="dropdown-content">
+                                    <a href="developer.html">필자</a>
+                            </div>
+                    </li>
+                    
+                </ul>
+            </div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+
+    </div>
+
+        <script>
+            function  myFunction(x){
+                x.classList.toggle("change");
+            }
+        </script>
+
+    </body>
+</html>

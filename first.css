@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background: rgb(99, 97, 100);
+}
+
+.make {
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+p{
+    border-radius: 50px;
+    width: 200px;
+    background: rgba(211, 207, 207, 0.979);
+    margin: 0 auto;
+}
+p:hover{
+    background: rgb(61, 61, 61);
+    color: white;
+}
+.home{
+    border-radius: 40px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background: rgba(211, 207, 207, 0.979);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
